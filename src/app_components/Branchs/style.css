@@ -1,0 +1,34 @@
+#timings {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #timings td, #timings th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #timings tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #timings tr:hover {background-color: #ddd;}
+  
+  #timings th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4839eb;
+    color: white;
+  }
+.workingdaydiv {
+  display: flex;
+  gap: 10px;
+  
+}
+.workingday{
+    padding: 10px;
+    font-weight: 600;
+    color: #fff;
+    background: #4839eb;
+    cursor: pointer;
+  }

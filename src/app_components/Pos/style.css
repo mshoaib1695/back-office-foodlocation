@@ -1,0 +1,111 @@
+@media (max-width: 767px){
+    html body .blank-page .content-wrapper .flexbox-container {
+        height: 100%;
+        overflow: auto;
+    }
+    div#pos-main-div {
+        height: 100% !important;
+        overflow: auto !important;
+        margin: 5px 10px;
+    }
+}
+div#pos-main-div {
+    height: 100vh;
+    overflow: hidden;
+    margin: 5px 10px;
+}
+#pos-top-bar button.btn.btn-primary {
+    padding: 20px;
+    margin: 5px 10px;
+}
+#categories-pos .card-body{
+    height: 30vh;
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#categories-pos .swiper-slide{
+   margin-top: 10px !important;
+}
+#products-pos .card-body{
+    height: 50vh;
+    display: flex;
+}
+.cat-name{
+    font-weight: 500;
+    position: absolute;
+    background: #bdbdbda6;
+    font-size: 12px;
+    padding: 5px;
+    color: #fff;
+    bottom: 0;
+    cursor: pointer;
+}
+.cat-div{
+    cursor: pointer;
+}
+.product-single-card{
+    position: relative;
+    height: 100px;
+    margin: 5px 10px;
+    cursor: pointer;
+    flex-basis: 100px;
+    position: relative;
+    height: 100px;
+}
+.product-single-card img{
+    width: 100%;
+    height: 100%;
+}
+.product-single-card p{
+    position: absolute;
+    color: #fff;
+    top: 30%;
+    width: 100%;
+    line-height: 12px;
+    font-size: 10px;
+}
+#product-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+    padding: 10px 0px 0px 10px;
+    margin-top: 5px;
+    overflow: auto;
+}
+#orderListId{
+    height: 60vh;
+    overflow-y: auto;
+}
+.emptyProductsLis .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#orderListId div {
+    background: #7367f0;
+    padding: 5px;
+    border-radius: 5px;
+}
+#orderListId div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #7367f0;
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+#posPriceBottom{
+    background: #28c76f;
+}
+#orderstatus {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+}
+

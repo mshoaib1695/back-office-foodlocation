@@ -1,0 +1,95 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+@media (max-width: 599px) {
+* {
+    font-size: 6px;
+}
+}
+
+@media (max-width: 959px) {
+* {
+    font-size: 9px;
+}
+}
+
+@media (max-width: 1263px) {
+* {
+    font-size: 11px;
+}
+}
+
+@media (min-width: 1264px) {
+* {
+    font-size: 14px;
+}
+}
+
+@media (min-width: 1904px) {
+* {
+    font-size: 15px;
+}
+}    
+
+table {
+border-collapse: collapse;
+width:100%;
+}
+
+p {
+margin:0;
+padding:0;
+}
+.inv-main-title {
+border-bottom: 1px solid #666;
+border-top: 1px solid #666;
+
+}
+.inv-main-title, .inv-main-title strong{
+font-size: 1.4rem;
+}
+
+.inv-main-subtitle, .inv-main-subtitle strong {
+font-size: 1rem;
+}
+.inv-header-img {
+width: 30%;
+min-width: 30%;
+margin-bottom:20px;            
+}
+.inv-table-title{
+margin-top: 0.8em;        
+}
+.inv-table-title td{
+border-top: 2px solid #666;
+border-bottom: 2px solid #666;        
+margin: 0.3em 0;
+}
+.topbottom-border{
+border-bottom: 1px solid #666;
+border-top: 1px solid #666;
+}
+
+.top-border{
+border-top: 1px solid #666;
+}    
+
+.combo-items-extra {
+font-style: italic;
+font-size: 0.8rem;        
+}
+.item-discount{
+font-size: 0.7rem;
+font-style: italic;
+}
+.item-note, .item-note strong{
+font-size: 0.7rem;
+}
+.food-extra {
+font-style: italic;
+font-size: 0.8rem;
+}
